@@ -1,0 +1,71 @@
+:root {
+  /* ── Canvas ── */
+  --canvas:     #0C0C0E;
+  --surface-1:  #111113;
+  --surface-2:  #161618;
+  --surface-3:  #1C1C1F;
+  --surface-4:  #222226;
+
+  /* ── Borders ── */
+  --border-1:     #1A1A1E;
+  --border-2:     #222226;
+  --border-3:     #2C2C32;
+  --border-focus: rgba(94, 106, 210, 0.5);
+
+  /* ── Text ── */
+  --text-1:  #E8E8EE;
+  --text-2:  #8F8F9E;
+  --text-3:  #55555F;
+  --text-4:  #33333A;
+
+  /* ── Accent ── */
+  --accent:       #5E6AD2;
+  --accent-dim:   rgba(94, 106, 210, 0.10);
+  --accent-glow:  rgba(94, 106, 210, 0.20);
+  --accent-text:  #8B93E8;
+  --accent-hover: #6872D8;
+
+  /* ── Semantic ── */
+  --success:     #4CC38A;
+  --success-dim: rgba(76, 195, 138, 0.08);
+  --warning:     #E5A05A;
+  --danger:      #E5534B;
+
+  /* ── Type scale ── */
+  --text-xs:   11px;
+  --text-sm:   12px;
+  --text-base: 13px;
+  --text-md:   14px;
+  --text-lg:   16px;
+  --text-xl:   20px;
+  --text-2xl:  28px;
+  --text-3xl:  36px;
+  --text-4xl:  48px;
+  --text-5xl:  60px;
+
+  /* ── Spacing (4px grid) ── */
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  20px;
+  --sp-6:  24px;
+  --sp-8:  32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+  --sp-20: 80px;
+  --sp-24: 96px;
+
+  /* ── Radius ── */
+  --r-sm:   4px;
+  --r-md:   6px;
+  --r-lg:   8px;
+  --r-xl:   12px;
+  --r-full: 9999px;
+
+  /* ── Easing ── */
+  --ease-out:    cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-smooth: cubic-bezier(0.65, 0, 0.35, 1);
+}
